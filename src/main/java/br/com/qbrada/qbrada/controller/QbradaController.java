@@ -50,10 +50,7 @@ public class QbradaController {
         return pagina;
     }
 
-    @GetMapping("/buscar")
-    public String buscaNome(){
-        return "buscaNome";
-    }
+
 
     @GetMapping("evento")
     public String buscarNome(@RequestParam("nome") String nome, Model model) {
